@@ -1,4 +1,8 @@
 
-export default function Test(){
-    return <h1>Test</h1>
+export default function Test(args){
+    return <h1 style={{
+        backgroundColor:args.backgroundColor,
+        color:args.color,
+        padding:args.padding
+    }}>Test</h1>
 }
