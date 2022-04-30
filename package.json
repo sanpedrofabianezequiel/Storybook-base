@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=de1f7ef92662"
+    "chromatic": "npx chromatic --project-token=de1f7ef92662",
+    "test:chromatic":"chormatic --project-token=\"$TEST_KEY\""
   },
   "author": "",
   "license": "ISC",
