@@ -12,4 +12,4 @@ export default {
 //we need to export the component
 export const Component = (args) => <Test {...args} />;
 export const NoArgsComponent = (args) => <Test {...args} />;
-export const ABC = () => <span>ABC</span>;
+export const ABCD = () => <span>ABCD</span>;
